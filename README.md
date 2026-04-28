@@ -57,7 +57,12 @@ See [PRIVACY.md](PRIVACY.md).
 
 ## License
 
-See [LICENSE-NOTICE.md](LICENSE-NOTICE.md).
+This project is licensed under the GNU General Public License v3.0.
+See [LICENSE](LICENSE).
+
+## Signing
+
+See [SIGNING.md](SIGNING.md) for Windows code signing guidance and the included release-signing script.
 
 ## Project Status
 
