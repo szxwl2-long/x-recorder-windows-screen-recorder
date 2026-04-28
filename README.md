@@ -59,15 +59,27 @@ Portable version:
 Prepared cover image:
 - [release-cover.png](WindosRecorder/Assets/release-cover.png)
 
-Recommended screenshot set for the repository and download pages:
-- Main screen
-- Countdown window
-- Recording control window
-- Support author window
-- Fullscreen recording example
-- Window recording example
+Current screenshot set:
 
-If you are publishing the project, add screenshots to improve discoverability and download conversion.
+### English Main Screen
+
+![English Main Screen](docs/screenshots/en-main.png)
+
+### Window Recording Mode (Chinese)
+
+![Window Recording Mode](docs/screenshots/zh-window.png)
+
+### English Countdown
+
+![English Countdown](docs/screenshots/en-countdown.png)
+
+### Chinese Main Screen
+
+![Chinese Main Screen](docs/screenshots/zh-main.png)
+
+### Language Selection
+
+![Language Selection](docs/screenshots/language-selection.png)
 
 Planning guide:
 - [SCREENSHOT-PLAN.md](SCREENSHOT-PLAN.md)
