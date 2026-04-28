@@ -1,0 +1,19 @@
+.appdata/
+.dotnet/
+.dotnet-home/
+tools/
+WindosRecorder/bin/
+WindosRecorder/obj/
+publish/
+smoke-output/
+RecorderSmokeTest/bin/
+RecorderSmokeTest/obj/
+
+# Local release artifacts
+dist/
+
+# Local logs and temp files
+*.log
+*.tmp
+*.user
+*.suo

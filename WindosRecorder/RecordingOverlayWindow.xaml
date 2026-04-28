@@ -1,0 +1,95 @@
+<Window x:Class="WindosRecorder.RecordingOverlayWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Width="220"
+        Height="122"
+        WindowStartupLocation="Manual"
+        WindowStyle="None"
+        ResizeMode="NoResize"
+        Background="#17315C"
+        ShowInTaskbar="False"
+        Topmost="True"
+        ShowActivated="False">
+  <Grid Background="#17315C">
+    <Border Background="#17315C"
+            CornerRadius="22"
+            Padding="18,12">
+      <StackPanel>
+        <StackPanel Orientation="Horizontal"
+                    HorizontalAlignment="Center">
+          <Ellipse Width="10"
+                   Height="10"
+                   Fill="#FF5252"
+                   Margin="0,0,8,0"
+                   VerticalAlignment="Center" />
+          <TextBlock x:Name="ElapsedTextBlock"
+                     Foreground="White"
+                     FontSize="24"
+                     FontWeight="SemiBold"
+                     Text="00:00:00" />
+        </StackPanel>
+
+        <UniformGrid Margin="0,12,0,0"
+                     Rows="1"
+                     Columns="2">
+          <Button x:Name="PauseResumeButton"
+                  Height="36"
+                  Margin="0,0,6,0"
+                  Click="PauseResumeButton_OnClick">
+            <Button.Template>
+              <ControlTemplate TargetType="Button">
+                <Border Background="#223B69"
+                        CornerRadius="14"
+                        Padding="0">
+                  <ContentPresenter HorizontalAlignment="Center"
+                                    VerticalAlignment="Center" />
+                </Border>
+              </ControlTemplate>
+            </Button.Template>
+            <Grid Width="28"
+                  Height="20">
+              <Rectangle x:Name="PauseLeftBar"
+                         Width="8"
+                         RadiusX="2"
+                         RadiusY="2"
+                         Fill="#FF4B3A"
+                         HorizontalAlignment="Left" />
+              <Rectangle x:Name="PauseRightBar"
+                         Width="8"
+                         RadiusX="2"
+                         RadiusY="2"
+                         Fill="#FF4B3A"
+                         HorizontalAlignment="Right" />
+              <Polygon x:Name="PlayTriangle"
+                       Visibility="Collapsed"
+                       Fill="#FF4B3A"
+                       Points="0,0 0,20 18,10"
+                       HorizontalAlignment="Center"
+                       VerticalAlignment="Center" />
+            </Grid>
+          </Button>
+          <Button x:Name="StopButton"
+                  Height="36"
+                  Margin="6,0,0,0"
+                  Click="StopButton_OnClick">
+            <Button.Template>
+              <ControlTemplate TargetType="Button">
+                <Border Background="#223B69"
+                        CornerRadius="14"
+                        Padding="0">
+                  <ContentPresenter HorizontalAlignment="Center"
+                                    VerticalAlignment="Center" />
+                </Border>
+              </ControlTemplate>
+            </Button.Template>
+            <Rectangle Width="18"
+                       Height="18"
+                       RadiusX="2"
+                       RadiusY="2"
+                       Fill="#FF4B3A" />
+          </Button>
+        </UniformGrid>
+      </StackPanel>
+    </Border>
+  </Grid>
+</Window>
