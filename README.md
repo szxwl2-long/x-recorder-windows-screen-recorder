@@ -1,55 +1,91 @@
 # X Recorder
 
-`X Recorder` is a Windows screen recorder for `Windows 10/11 64-bit`.
+`X Recorder` is an open-source Windows screen recorder for `Windows 10/11 64-bit`.
 
-It supports:
+It is designed for people who want a simple desktop recorder with:
 - Fullscreen recording
 - Window recording
 - Audio-only recording
 - Microphone capture
 - System audio capture
-- Chinese and English UI
-- Installer build and portable build
+- Chinese / English interface
 
-## Downloads
+This project is free to use. If it helps you, you can support the author voluntarily inside the app.
+
+## Download
+
+Latest public release:
+- [GitHub Releases](https://github.com/szxwl2-long/x-recorder-windows-screen-recorder/releases)
 
 Recommended for most users:
-- Installer: `dist/installer/X-Recorder-Setup.exe`
+- `X-Recorder-Setup.exe`
 
 Portable version:
-- Folder: `dist/WindosRecorder-portable-folder`
-- Important: do not copy only `WindosRecorder.exe`. Keep the whole folder together.
+- `X-Recorder-Portable.zip`
+- Important: extract and keep the full folder together
+- Do **not** copy only `WindosRecorder.exe`
 
-## System Requirements
+## Features
 
-- Windows 10 64-bit or Windows 11 64-bit
-- Microphone if you want voice recording
-- Graphics / audio environment supported by the current Windows system
-
-## Notes Before Running
-
-- This app is currently distributed as an unsigned Windows desktop application.
-- Windows SmartScreen may show a warning on first launch.
-- The app is intended for Windows 10/11 x64 only.
-- Some recording failures can be caused by system policy, graphics drivers, audio devices, or missing media components.
-
-## Main Features
-
-- 2K / 1080P / 720P / 480P recording presets
+- Fullscreen recording
+- Window recording
+- Audio-only recording
+- Microphone recording
+- System audio recording
+- 2K / 1080P / 720P / 480P presets
 - Recommended bitrate autofill
 - Save folder selection
 - Recording name memory
 - 5-second countdown before recording starts
 - Compact recording control window
-- Optional support / donation window
+- Support / donation window
+- Chinese / English UI
 
-## Publishing Advice
+## System Requirements
 
-If you are publishing this app online, it is best to provide:
-- The installer for normal users
-- A zipped portable build for advanced users
-- A short note that the portable version must stay as a full folder
-- A short note that the app targets Windows 10/11 64-bit only
+- Windows 10 64-bit or Windows 11 64-bit
+- Microphone if you want voice recording
+- Graphics and audio environment supported by the current Windows system
+
+## Notes Before Running
+
+- This app is currently distributed as an unsigned Windows desktop application
+- Windows SmartScreen may show a warning on first launch
+- This app currently targets `Windows 10/11 x64` only
+- Some recording failures can be caused by system policy, graphics drivers, audio devices, or missing media components
+
+## Screenshots
+
+Recommended screenshot set for the repository and download pages:
+- Main screen
+- Countdown window
+- Recording control window
+- Support author window
+- Fullscreen recording example
+- Window recording example
+
+If you are publishing the project, add screenshots to improve discoverability and download conversion.
+
+## Open Source And Support
+
+This project is open source under `GPL-3.0`.
+
+You are welcome to:
+- Use the software
+- Study the code
+- Modify the code
+- Share changes under the same license terms
+
+If `X Recorder` is useful to you, you can support the author voluntarily inside the app.
+
+Author:
+- `long-X`
+
+## Known Limitations
+
+- Windows code signing is not yet enabled for public release builds
+- SmartScreen reputation is not yet established
+- Public screenshots and marketing assets still need improvement
 
 ## Privacy
 
@@ -64,10 +100,19 @@ See [LICENSE](LICENSE).
 
 See [SIGNING.md](SIGNING.md) for Windows code signing guidance and the included release-signing script.
 
-## Project Status
+## Release Metadata
 
-This project is in a release-preparation state. It is usable, but public release is still recommended to include:
-- Better public-facing screenshots
-- Signed installer if possible
-- Final release notes
-- Final platform upload text
+See:
+- [RELEASE-TEXT.md](RELEASE-TEXT.md)
+- [PLATFORM-METADATA.md](PLATFORM-METADATA.md)
+- [GITHUB-RELEASE-NOTES.md](GITHUB-RELEASE-NOTES.md)
+
+## Development Notes
+
+This repository is actively being prepared for wider public distribution.
+
+Useful next steps:
+- Add screenshots
+- Improve release cover art
+- Enable code signing
+- Expand release notes over time
