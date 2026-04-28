@@ -56,6 +56,9 @@ Portable version:
 
 ## Screenshots
 
+Prepared cover image:
+- [release-cover.png](WindosRecorder/Assets/release-cover.png)
+
 Recommended screenshot set for the repository and download pages:
 - Main screen
 - Countdown window
@@ -65,6 +68,9 @@ Recommended screenshot set for the repository and download pages:
 - Window recording example
 
 If you are publishing the project, add screenshots to improve discoverability and download conversion.
+
+Planning guide:
+- [SCREENSHOT-PLAN.md](SCREENSHOT-PLAN.md)
 
 ## Open Source And Support
 
