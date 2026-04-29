@@ -63,6 +63,7 @@ If your goal is to publish soon and reduce warnings:
 This repo includes:
 
 - `scripts/Sign-Release.ps1`
+- `scripts/Install-SigningTools.ps1`
 
 It signs:
 - the portable EXE
@@ -72,6 +73,23 @@ It supports:
 - PFX file signing
 - Windows certificate store signing by SHA-1 thumbprint
 - Windows certificate store signing by subject name
+
+The helper installer script:
+- downloads the official Windows SDK installer
+- attempts to install only the Signing Tools component
+- checks whether `signtool.exe` becomes available
+
+Example:
+
+```powershell
+.\scripts\Install-SigningTools.ps1
+```
+
+Current machine status checked on `2026-04-29`:
+
+- `signtool.exe` is now available
+- recommended local path:
+  `C:\Program Files (x86)\Windows Kits\10\bin\10.0.19041.0\x64\signtool.exe`
 
 ## Example: PFX-based signing
 
