@@ -14,11 +14,19 @@ These are the remaining steps that require the project owner to act directly.
   - OV code-signing certificate
   - EV code-signing certificate
   - Microsoft Trusted Signing
+- Install a Windows signing tool:
+  - `signtool.exe` from Windows SDK, or
+  - a compatible signing environment that provides `signtool.exe`
 - Complete identity verification with the signing provider
 - Provide the final signing material on this PC:
   - PFX file + password, or
   - installed certificate in Windows certificate store, or
   - Azure Trusted Signing account ready
+
+Current machine status checked on `2026-04-29`:
+- `signtool.exe` not found
+- no code-signing certificate found in `Cert:\CurrentUser\My`
+- no code-signing certificate found in `Cert:\LocalMachine\My`
 
 ## Optional trust-building
 
