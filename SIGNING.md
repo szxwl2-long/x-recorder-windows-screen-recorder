@@ -104,3 +104,11 @@ It supports:
 - Always sign both the app EXE and the installer EXE
 - If you rotate certificates later, keep the publisher name consistent when possible
 - After public release, you can revoke or rotate old tokens used for publishing automation
+
+## Manual actions still required
+
+- Buy or obtain a real Windows code-signing certificate, or choose Microsoft Trusted Signing
+- Complete any certificate identity verification requested by the provider
+- If using a PFX certificate, provide the final `.pfx` file and password on this PC
+- If using certificate-store signing, install the certificate into the Windows certificate store
+- If using Azure Trusted Signing, complete the Azure account and service setup
