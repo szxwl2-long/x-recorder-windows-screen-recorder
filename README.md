@@ -61,25 +61,25 @@ Prepared cover image:
 
 Current screenshot set:
 
-### English Main Screen
+### Language Selection
 
-![English Main Screen](docs/screenshots/en-main.png)
-
-### Window Recording Mode (Chinese)
-
-![Window Recording Mode](docs/screenshots/zh-window.png)
-
-### English Countdown
-
-![English Countdown](docs/screenshots/en-countdown.png)
+![Language Selection](docs/screenshots/language-selection.png)
 
 ### Chinese Main Screen
 
 ![Chinese Main Screen](docs/screenshots/zh-main.png)
 
-### Language Selection
+### Chinese Countdown
 
-![Language Selection](docs/screenshots/language-selection.png)
+![Chinese Countdown](docs/screenshots/zh-countdown.png)
+
+### English Main Screen
+
+![English Main Screen](docs/screenshots/en-main.png)
+
+### English Countdown
+
+![English Countdown](docs/screenshots/en-countdown.png)
 
 Planning guide:
 - [SCREENSHOT-PLAN.md](SCREENSHOT-PLAN.md)
